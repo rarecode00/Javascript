@@ -1,0 +1,32 @@
+
+#outer{
+    height:200px;
+    width: 200px;
+    background-color: #8a2be2;
+    padding: 50px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    left: 41%;
+    margin: 10px;
+    top: 350px;
+}
+
+button:hover{
+    box-shadow: 2px 2px 2px 2px lightgray;
+}

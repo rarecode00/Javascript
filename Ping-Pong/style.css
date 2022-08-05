@@ -1,0 +1,68 @@
+:root
+{
+    --time-duration:9s;
+}
+body {
+    margin: 0px;
+    background-color:lightgray;
+}
+h3
+{
+    margin:0px;
+}
+
+
+#rod-1 {
+	position: absolute;
+	top: 0%;
+	background-color: skyblue;
+	border: 2px solid black;
+    width: 20vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 5vh;
+    padding:5px;
+    text-align: center;
+}
+#rod-2 {
+	position: absolute;
+	bottom: 0%;
+    background-color: pink;
+    border-radius: 20px;;
+	border: 2px solid black;
+    width: 20vw;
+    box-sizing: border-box;
+    height: 5vh;
+    padding:5px;
+    text-align: center;
+}
+#ball {
+	height: 50px;
+    width: 50px;
+    position:absolute;
+    border-radius: 50%;
+    background-image:radial-gradient(rgb(65, 39, 112) 0%,black 221%);
+    box-sizing: border-box;
+}
+
+
+.animate-top-right
+{
+    transition:transform linear var(--time-duration);
+    transform: translateX(2000px) translateY(-2000px);
+}
+.animate-bottom-right
+{
+    transition:transform linear var(--time-duration);
+    transform: translateX(2000px) translateY(2000px);
+}
+.animate-top-left
+{
+    transition:transform linear var(--time-duration);
+    transform: translateX(-2000px) translateY(-2000px);
+}
+.animate-bottom-left
+{
+    transition:transform linear var(--time-duration);
+    transform: translateX(-2000px) translateY(2000px);
+}
